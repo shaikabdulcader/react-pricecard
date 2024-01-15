@@ -24,7 +24,7 @@
 <a href="https://react-pricecard-fsd.netlify.app/">Preview</a>
 
 ## Screenshot
-<img src="">
+<img src="https://github.com/shaikabdulcader/react-pricecard/blob/main/public/Demo-pricecard.png">
 
 ## Setup
 <p>Following are the requirements to run this project:</p>
