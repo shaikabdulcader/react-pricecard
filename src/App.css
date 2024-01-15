@@ -33,7 +33,33 @@
 
 /* Animation */
 
-.card:hover {
+.card{
+  transform-origin: 50% 50%;
+  animation: jack-in-the-box-animation 1s ease 0s 1 normal both running;
+}
+
+@keyframes jack-in-the-box-animation {
+  0% {
+      transform: scale(0.1) rotate(30deg);
+      opacity: 0;
+  }
+
+  50% {
+      transform: scale(1) rotate(-10deg);
+      opacity: 1;
+  }
+
+  70% {
+      transform: scale(1) rotate(3deg);
+  }
+
+  100% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+  }
+}
+
+.card:hover{
   cursor: pointer;
   transform-origin: 60% 50%;
   animation: jello-animation 1.5s ease 0s 1 normal both running;
