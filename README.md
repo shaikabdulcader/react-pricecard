@@ -21,7 +21,7 @@
 
 
 ## Website
-<a href="https://react-pricecard-fsd.netlify.app/" target_blank>Preview</a>
+<a href="https://react-pricecard-fsd.netlify.app/" target="_blank">Preview</a>
 
 ## Screenshot
 <img src="https://github.com/shaikabdulcader/react-pricecard/blob/main/public/Demo-pricecard.png">
