@@ -11,13 +11,13 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-sm-4 col-lg-6 col-sm-12 col-xl-4 col-xxl-4 col-md-6">
-            <ProductCard></ProductCard>
+            <ProductCard/>
           </div>
           <div className="col-sm-4 col-lg-6 col-sm-12 col-xl-4 col-xxl-4 col-md-6">
-            <ProductCard2></ProductCard2>
+            <ProductCard2/>
           </div>
           <div className="col-sm-4 col-lg-6 col-sm-12 col-xl-4 col-xxl-4 col-md-6">
-            <ProductCard3></ProductCard3>
+            <ProductCard3/>
           </div>
         </div>
       </div>
