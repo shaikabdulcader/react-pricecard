@@ -3,8 +3,8 @@ function ProductCard(props){
         <div>
             <div className="card" style={{width: "18rem"}}>
             <div className="header">
-            <div className="card-head opacity-50"><h6>FREE</h6></div>
-            <h1 className="card-title">$0/month</h1>
+            <div className="card-head opacity-50"><h6>{props.plan}</h6></div>
+            <h1 className="card-title">{props.month}</h1>
             </div>
             <div className="card-body">
             <p className="card-text"><i class="fa fa-check" aria-hidden="true"></i> Single User</p>
