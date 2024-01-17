@@ -8,7 +8,7 @@ import ProductCard3 from './ProductCard3';
 function App() {
   return (
     <div>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-sm-4 col-lg-6 col-sm-12 col-xl-4 col-xxl-4 col-md-6">
             <ProductCard plan="FREE" month="$0/month"/>
