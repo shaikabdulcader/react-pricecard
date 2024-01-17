@@ -1,6 +1,5 @@
-.container{
+.container-fluid{
   background-color: #127CEC;
-  /* margin: 50px 40px; */
   padding: 50px;
   width: auto;
   display: flex;
